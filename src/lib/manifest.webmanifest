@@ -1,20 +1,20 @@
 {
-  "name": "Prints By Y",
-  "short_name": "Prints",
-  "description": "A micro print studio.",
+  "name": "Taminat Memos",
+  "short_name": "Taminat",
+  "description": "Simple forms to generate memos –offline.",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "id": "https://prints.byy.design/",
-  "start_url": "https://prints.byy.design/",
+  "id": "https://taminat.byy.design/",
+  "start_url": "https://taminat.byy.design/",
   "background_color": "#000000",
   "theme_color": "#ffffff",
   "protocol_handlers": [
     {
-      "protocol": "web+prints",
-      "url": "https: //prints.byy.design/?%s"
+      "protocol": "web+taminat",
+      "url": "https: //taminat.byy.design/?%s"
     }
   ],
   "icons": [
