@@ -17,7 +17,8 @@ export default defineConfig({
   build: {
     outDir: path.resolve(__dirname, 'dist'),
     emptyOutDir: true,
-    assetsDir: '.',
+    assetsDir: 'lib',
+
     rollupOptions: {
       input: path.resolve(__dirname, 'src/index.html'),
     },
