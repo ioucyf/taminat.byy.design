@@ -168,17 +168,14 @@ footer {
   -moz-user-select: none;
   -ms-user-select: none;
 
-  & div.logo {
+  & svg.logo {
     grid-area: footer-logo;
     /* border: 1px solid #ccc; */
+    height: 64px;
     width: 100%;
 
     align-self: end;
     justify-self: center;
-    & img {
-      object-fit: contain;
-      height: 64px;
-    }
   }
 
   & p {
