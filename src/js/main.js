@@ -19,6 +19,6 @@ function isIOS() {
 }
 
 if (isIOS()) {
-  const smallPrint = document.querySelector('small.print');
-  smallPrint.classList.add('ios');
+  const body = document.querySelector('body');
+  body.classList.add('ios');
 }
