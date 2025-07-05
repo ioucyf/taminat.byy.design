@@ -2,7 +2,7 @@ import { writeFileSync, mkdirSync } from 'fs';
 import path from 'path';
 import favicons from 'favicons';
 
-const source = path.resolve('src/assets/icon-1024.png'); // your high-res image
+const source = path.resolve('src/assets/Logo.svg'); // your high-res image
 const outputDir = path.resolve('public/assets'); // or src/assets if you prefer
 
 const config = {
