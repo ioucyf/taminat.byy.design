@@ -11,18 +11,18 @@ const config = {
   display_override: ["fullscreen", "minimal-ui"],
   orientation: 'portrait',
   scope: '/',
-  id: 'https://prints.byy.design/',
-  start_url: 'https://prints.byy.design/',
-  appName: 'Prints By Y',
-  appShortName: 'Prints',
+  id: 'https://taminat.byy.design/',
+  start_url: 'https://taminat.byy.design/',
+  appName: 'Taminat By Y',
+  appShortName: 'Taminat',
   appDescription: 'A micro print studio.',
   developerName: 'byy.design',
   background: '#000000',
   theme_color: '#ffffff',
   protocol_handlers: [
     {
-      protocol: 'web+prints',
-      url: 'https://prints.byy.design/?%s'
+      protocol: 'web+taminat',
+      url: 'https://taminat.byy.design/?%s'
     }
   ],
   icons: {
