@@ -11,7 +11,7 @@
   "description": "Simple forms to generate memos –offline.",
   "protocol_handlers": [
     {
-      "protocol": "web+pbyd",
+      "protocol": "web+taminat",
       "url": "/images?%s"
     }
   ],
